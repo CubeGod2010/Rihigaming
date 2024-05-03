@@ -5,9 +5,10 @@
     <style>
         .fejlec {
             font-size: 100px;
-            font-weight: bold;
-            background-image: url(gradient-dynamic-blue-lines-background_23-2148995756.jpg);
-            font-family: Verdana, sans-serif;
+            background-image: url(TypeWiterBackGround.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Helvetica, sans-serif;
             text-align: center;
             height: 130px;
             width: 900px;
@@ -16,6 +17,8 @@
         }
         .img {
             background-image: url(purple-and-blue-background-ajp62v7qahujohnv.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -25,12 +28,12 @@
 }
 .typed-out{
     overflow: hidden;
-    border-right: .15em solid white;
+    border-right: .15em solid #FF00CC;
     white-space: nowrap;
     font-size: 100px;
     width: 0;
     animation: typing 1s forwards;
-    font-family: Times New Roman, serif;
+    font-family: Helvetica, sans-serif;
 }
 .container {
   display: inline-block;
@@ -39,10 +42,30 @@
   from { width: 0 }
   to { width: 100% }
 }
+ .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  height: 30px;
+      margin-bottom: 80px;
+}
+.buttonsize1 {
+    font-size: 30px;
+}
     </style>
     <title>Rihigaming Weboldala</title>
 </head>
 <body class="img">
+   <div class="button">
+    <button style="background-color: 	#C154C1;" class="buttonsize1">centered button </button>
+   </div>
     <div class="fejlec">
         <div class="container">
           <div class="typed-out">RihiGaming</div></div>
